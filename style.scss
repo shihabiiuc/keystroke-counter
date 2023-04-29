@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  background-color: #eaeaea;
+  border: 1px solid #FFC600;
+  text-align: center;
+  padding: 60px 15px;
+  p.instruction {
+    margin: 0;
+  }
+  h2#counter {
+    font-family: Arial, sans-serif;
+    font-size: 5em;
+    margin: 0;
+    color: #e0413d;
+    @media (min-width: 768px) {
+      font-size: 12em;
+    }
+  }
+  p.hits {
+    margin-bottom: 30px;
+  }
+  button {
+    padding: 7px 30px; 
+    margin: 20px 0 60px;
+    font-size: 1.2em;
+    font-weight: 700; 
+    display: inline-block; 
+    text-transform: uppercase;
+    background-color: #0D054C;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 3px solid #1d0f8c;
+    border-radius: 25px;
+  }
+  
+  textarea {
+    font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    resize: vertical;
+  }
+  textarea:focus {
+    outline: none;
+    border-color: #2196f3;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.3);
+  }
+}
+
+
